@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yann Kounkoud — Portfolio BTS SIO SISR</title>
+  <meta name="description" content="Portfolio de Yann Kounkoud, étudiant en BTS SIO option SISR : administration systèmes et réseaux, projets, compétences et veille technologique.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230f766e'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'>YK</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navigation principale">
+      <a href="#" class="brand"><span class="brand-mark">YK</span> Yann Kounkoud</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="#a-propos">À propos</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#parcours">Parcours</a></li>
+        <li><a href="#veille">Veille</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container">
+      <div class="hero-text">
+        <p class="eyebrow"><span class="dot"></span> Étudiant en BTS SIO · option SISR</p>
+        <h1>Yann Kounkoud</h1>
+        <p class="lead">
+          Futur administrateur systèmes &amp; réseaux. Je conçois, déploie et sécurise
+          des infrastructures informatiques : serveurs, réseaux, virtualisation et supervision.
+        </p>
+        <div class="hero-actions">
+          <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+          <a href="#contact" class="btn btn-ghost">Me contacter</a>
+        </div>
+        <ul class="hero-tags" aria-label="Technologies principales">
+          <li>Windows Server</li><li>Linux</li><li>Active Directory</li><li>Cisco</li><li>pfSense</li><li>Proxmox</li>
+        </ul>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="terminal">
+          <div class="terminal-bar"><span></span><span></span><span></span><em>yann@sisr:~</em></div>
+          <pre class="terminal-body"><code><span class="t-prompt">$</span> whoami
+yann-kounkoud
+<span class="t-prompt">$</span> cat formation.txt
+BTS SIO — Solutions d'Infrastructure,
+Systèmes et Réseaux (SISR)
+<span class="t-prompt">$</span> ip -br addr | grep UP
+eth0   UP   192.168.1.10/24
+<span class="t-prompt">$</span> systemctl status motivation
+<span class="t-ok">●</span> motivation.service — active (running)
+<span class="t-prompt">$</span> <span class="cursor"></span></code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="a-propos" class="section container">
+      <div class="section-head">
+        <span class="section-num">01</span>
+        <h2>À propos</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Passionné par l'informatique et plus particulièrement par les infrastructures,
+            je suis actuellement en <strong>BTS SIO option SISR</strong> (Solutions d'Infrastructure,
+            Systèmes et Réseaux). Cette formation me permet d'acquérir les compétences
+            nécessaires pour administrer, sécuriser et faire évoluer le système d'information
+            d'une organisation.
+          </p>
+          <p>
+            Au quotidien, j'aime monter des labs, casser des choses pour comprendre
+            comment elles fonctionnent, puis documenter proprement les solutions.
+            Mon objectif : devenir <strong>administrateur systèmes et réseaux</strong>,
+            puis évoluer vers la cybersécurité.
+          </p>
+        </div>
+        <ul class="facts">
+          <li><span class="fact-label">Formation</span><span>BTS SIO — SISR</span></li>
+          <li><span class="fact-label">Objectif</span><span>Admin sys &amp; réseaux</span></li>
+          <li><span class="fact-label">Disponibilité</span><span>Stage / Alternance</span></li>
+          <li><span class="fact-label">Localisation</span><span>France</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="competences" class="section container">
+      <div class="section-head">
+        <span class="section-num">02</span>
+        <h2>Compétences</h2>
+        <p class="section-sub">Les blocs de compétences du référentiel BTS SIO, appliqués en pratique.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="card skill">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="8" rx="2"/><rect x="2" y="13" width="20" height="8" rx="2"/><path d="M6 7h.01M6 17h.01"/></svg>
+          </div>
+          <h3>Systèmes</h3>
+          <ul>
+            <li>Windows Server (AD DS, DNS, DHCP, GPO)</li>
+            <li>Linux Debian / Ubuntu Server</li>
+            <li>Scripting PowerShell &amp; Bash</li>
+            <li>Gestion des utilisateurs et des droits</li>
+          </ul>
+        </article>
+        <article class="card skill">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/><path d="M12 7v5M12 12l-5.5 5.5M12 12l5.5 5.5"/></svg>
+          </div>
+          <h3>Réseaux</h3>
+          <ul>
+            <li>Modèle OSI, TCP/IP, adressage &amp; sous-réseaux</li>
+            <li>Switching : VLAN, trunk, STP (Cisco)</li>
+            <li>Routage statique &amp; dynamique (OSPF)</li>
+            <li>Cisco Packet Tracer, GNS3</li>
+          </ul>
+        </article>
+        <article class="card skill">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg>
+          </div>
+          <h3>Sécurité</h3>
+          <ul>
+            <li>Pare-feu pfSense / OPNsense, règles &amp; NAT</li>
+            <li>VPN (OpenVPN, WireGuard)</li>
+            <li>Sauvegardes, PRA / PCA</li>
+            <li>Sensibilisation RGPD &amp; bonnes pratiques ANSSI</li>
+          </ul>
+        </article>
+        <article class="card skill">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+          </div>
+          <h3>Virtualisation &amp; cloud</h3>
+          <ul>
+            <li>Proxmox VE, VMware ESXi, VirtualBox</li>
+            <li>Conteneurs Docker</li>
+            <li>Notions Microsoft 365 / Azure AD</li>
+            <li>Stockage : RAID, NAS, partages SMB/NFS</li>
+          </ul>
+        </article>
+        <article class="card skill">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg>
+          </div>
+          <h3>Supervision &amp; support</h3>
+          <ul>
+            <li>GLPI (parc, tickets, inventaire)</li>
+            <li>Zabbix, Centreon, Uptime Kuma</li>
+            <li>Diagnostic &amp; résolution d'incidents</li>
+            <li>Rédaction de procédures et documentation</li>
+          </ul>
+        </article>
+        <article class="card skill">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M14 4l-4 16"/></svg>
+          </div>
+          <h3>Développement &amp; outils</h3>
+          <ul>
+            <li>HTML / CSS / JavaScript</li>
+            <li>SQL (MySQL, MariaDB)</li>
+            <li>Git &amp; GitHub</li>
+            <li>Bases de Python</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="projets" class="section container">
+      <div class="section-head">
+        <span class="section-num">03</span>
+        <h2>Projets</h2>
+        <p class="section-sub">Travaux réalisés en formation, en atelier de professionnalisation et en autonomie.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="card project">
+          <div class="project-top">
+            <span class="badge">Systèmes</span>
+            <span class="project-date">2025</span>
+          </div>
+          <h3>Déploiement d'un domaine Active Directory</h3>
+          <p>
+            Installation de Windows Server, promotion en contrôleur de domaine, création de l'arborescence
+            d'unités d'organisation, gestion des utilisateurs et groupes, déploiement de GPO
+            (restrictions, lecteurs réseau, fond d'écran) et intégration de postes clients Windows.
+          </p>
+          <ul class="tech-list"><li>Windows Server 2022</li><li>AD DS</li><li>DNS</li><li>DHCP</li><li>GPO</li></ul>
+        </article>
+        <article class="card project">
+          <div class="project-top">
+            <span class="badge">Réseaux</span>
+            <span class="project-date">2025</span>
+          </div>
+          <h3>Segmentation réseau par VLAN</h3>
+          <p>
+            Conception d'un plan d'adressage pour une PME fictive, création de VLAN par service
+            (administration, commercial, invités), configuration des trunks et du routage inter-VLAN
+            sur un switch de niveau 3, puis tests de connectivité et d'isolation.
+          </p>
+          <ul class="tech-list"><li>Cisco</li><li>VLAN</li><li>802.1Q</li><li>Packet Tracer</li></ul>
+        </article>
+        <article class="card project">
+          <div class="project-top">
+            <span class="badge">Sécurité</span>
+            <span class="project-date">2025</span>
+          </div>
+          <h3>Pare-feu pfSense et accès VPN</h3>
+          <p>
+            Mise en place de pfSense en passerelle entre LAN, DMZ et WAN : règles de filtrage,
+            NAT pour publier un serveur web, portail captif pour les invités et accès nomade
+            sécurisé via OpenVPN avec authentification par certificats.
+          </p>
+          <ul class="tech-list"><li>pfSense</li><li>OpenVPN</li><li>NAT</li><li>DMZ</li></ul>
+        </article>
+        <article class="card project">
+          <div class="project-top">
+            <span class="badge">Virtualisation</span>
+            <span class="project-date">2024</span>
+          </div>
+          <h3>Lab Proxmox à la maison</h3>
+          <p>
+            Installation de Proxmox VE sur un serveur de récupération, création de VM et de
+            conteneurs LXC, mise en place de snapshots et de sauvegardes planifiées. Ce lab
+            me sert de terrain d'expérimentation pour tous mes autres projets.
+          </p>
+          <ul class="tech-list"><li>Proxmox VE</li><li>LXC</li><li>Debian</li><li>Backups</li></ul>
+        </article>
+        <article class="card project">
+          <div class="project-top">
+            <span class="badge">Support</span>
+            <span class="project-date">2024</span>
+          </div>
+          <h3>Gestion de parc avec GLPI</h3>
+          <p>
+            Déploiement de GLPI sur un serveur Linux (Apache, MariaDB, PHP), inventaire
+            automatique des postes avec l'agent GLPI, mise en place du centre de services
+            (tickets, SLA) et rédaction de la documentation utilisateur.
+          </p>
+          <ul class="tech-list"><li>GLPI</li><li>Linux</li><li>MariaDB</li><li>ITIL</li></ul>
+        </article>
+        <article class="card project">
+          <div class="project-top">
+            <span class="badge">Supervision</span>
+            <span class="project-date">2024</span>
+          </div>
+          <h3>Supervision avec Zabbix</h3>
+          <p>
+            Installation d'un serveur Zabbix, ajout d'hôtes Windows et Linux via agents,
+            création de modèles de surveillance (CPU, RAM, disques, services) et configuration
+            d'alertes par e-mail en cas d'incident.
+          </p>
+          <ul class="tech-list"><li>Zabbix</li><li>SNMP</li><li>Alerting</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="parcours" class="section container">
+      <div class="section-head">
+        <span class="section-num">04</span>
+        <h2>Parcours</h2>
+      </div>
+      <ol class="timeline">
+        <li>
+          <span class="tl-date">2024 — 2026</span>
+          <h3>BTS SIO option SISR</h3>
+          <p>Solutions d'Infrastructure, Systèmes et Réseaux. Administration de systèmes Windows et Linux,
+            conception de réseaux, sécurité, virtualisation, support utilisateurs et gestion de projet.</p>
+        </li>
+        <li>
+          <span class="tl-date">2025</span>
+          <h3>Stage en entreprise — service informatique</h3>
+          <p>Support de niveau 1 et 2, préparation et déploiement de postes, participation à
+            l'administration du réseau et à la documentation du système d'information.</p>
+        </li>
+        <li>
+          <span class="tl-date">2024</span>
+          <h3>Baccalauréat</h3>
+          <p>Obtention du baccalauréat, avant de m'orienter vers l'informatique et les infrastructures.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="veille" class="section container">
+      <div class="section-head">
+        <span class="section-num">05</span>
+        <h2>Veille technologique</h2>
+        <p class="section-sub">Les sujets que je suis régulièrement pour rester à jour.</p>
+      </div>
+      <div class="veille-grid">
+        <article class="card veille">
+          <h3>Cybersécurité</h3>
+          <p>Actualité des vulnérabilités (CVE), recommandations de l'ANSSI, ransomwares et bonnes pratiques de durcissement des systèmes.</p>
+          <p class="sources">Sources : CERT-FR, ANSSI, ZATAZ</p>
+        </article>
+        <article class="card veille">
+          <h3>Virtualisation &amp; conteneurs</h3>
+          <p>Évolution de Proxmox, alternatives à VMware après le rachat par Broadcom, Docker et introduction à Kubernetes.</p>
+          <p class="sources">Sources : IT-Connect, blogs Proxmox &amp; Docker</p>
+        </article>
+        <article class="card veille">
+          <h3>Réseaux &amp; infrastructure</h3>
+          <p>Wi-Fi 7, IPv6, SD-WAN, Zero Trust et automatisation de l'infrastructure (Ansible, Infrastructure as Code).</p>
+          <p class="sources">Sources : LeMagIT, Cisco Blogs, Reddit r/sysadmin</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <div class="section-head">
+        <span class="section-num">06</span>
+        <h2>Contact</h2>
+        <p class="section-sub">À la recherche d'un stage ou d'une alternance ? Discutons-en.</p>
+      </div>
+      <div class="contact-grid">
+        <a class="card contact-card" href="mailto:kounkoudyann@gmail.com">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+          <span class="contact-label">E-mail</span>
+          <span class="contact-value">kounkoudyann@gmail.com</span>
+        </a>
+        <a class="card contact-card" href="https://github.com/1TLO-tech" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2.17c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">github.com/1TLO-tech</span>
+        </a>
+        <a class="card contact-card" href="https://www.linkedin.com/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">Mon profil LinkedIn</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Yann Kounkoud — Portfolio BTS SIO SISR</p>
+      <a href="#" class="to-top">Retour en haut ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
