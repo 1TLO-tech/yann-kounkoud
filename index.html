@@ -24,6 +24,7 @@
         <li><a href="#a-propos">À propos</a></li>
         <li><a href="#competences">Compétences</a></li>
         <li><a href="#projets">Projets</a></li>
+        <li><a href="#synthese">Synthèse</a></li>
         <li><a href="#parcours">Parcours</a></li>
         <li><a href="#certifications">Certifications</a></li>
         <li><a href="#contact" class="nav-cta">Contact</a></li>
@@ -204,31 +205,31 @@ eth0   UP   192.168.1.10/24
         <article class="card project">
           <div class="project-top">
             <span class="badge">Systèmes</span>
-            <span class="project-date">2025</span>
+            <span class="project-date">2026</span>
           </div>
           <h3>Déploiement d'un domaine Active Directory</h3>
           <p>
-            Atelier en quatre séances : spécification et configuration IP statique de la VM, création du
-            domaine <code>esn.local</code> sur SRV-AD01, structure d'unités d'organisation par service
+            Atelier en quatre séances sous Windows Server 2019 : spécification et configuration IP statique de la VM,
+            création du domaine <code>esn.local</code> sur SRV-AD01, structure d'unités d'organisation par service
             (Direction, Informatique, Comptabilité, RH), import des utilisateurs depuis un fichier CSV,
             GPO de politique de mots de passe et de verrouillage des comptes, plan d'audit des événements
             de sécurité et politique d'authentification à deux facteurs.
           </p>
-          <ul class="tech-list"><li>Windows Server</li><li>AD DS</li><li>GPO</li><li>PowerShell</li><li>Audit</li></ul>
+          <ul class="tech-list"><li>Windows Server 2019</li><li>AD DS</li><li>GPO</li><li>PowerShell</li><li>Audit</li></ul>
           <a class="doc-link" href="projets/active-directory.pdf" target="_blank" rel="noopener">Voir la présentation</a>
         </article>
         <article class="card project">
           <div class="project-top">
             <span class="badge">Réseaux</span>
-            <span class="project-date">2025</span>
+            <span class="project-date">2026</span>
           </div>
-          <h3>Segmentation réseau par VLAN</h3>
+          <h3>Réseau multiservices StratAdvise — segmentation par VLAN</h3>
           <p>
             Maquette sous Cisco Packet Tracer : création de VLAN par service (RH, Finances, IT), routage
-            inter-VLAN sur un routeur Cisco 2911, serveurs DHCP, DNS, HTTP et SNMP centralisés, puis
-            tests de connectivité et d'isolation entre les VLAN.
+            inter-VLAN sur un routeur Cisco 2911, listes de contrôle d'accès (ACL), serveurs DHCP, DNS,
+            HTTP et SNMP centralisés, puis tests de connectivité et d'isolation entre les VLAN.
           </p>
-          <ul class="tech-list"><li>Cisco</li><li>VLAN</li><li>Routage inter-VLAN</li><li>DHCP</li><li>Packet Tracer</li></ul>
+          <ul class="tech-list"><li>Cisco</li><li>VLAN</li><li>Routage inter-VLAN</li><li>ACL</li><li>DHCP</li><li>Packet Tracer</li></ul>
           <a class="doc-link" href="projets/vlan.pdf" target="_blank" rel="noopener">Voir la présentation</a>
         </article>
         <article class="card project">
@@ -249,9 +250,204 @@ eth0   UP   192.168.1.10/24
       </div>
     </section>
 
-    <section id="parcours" class="section container">
+    <section id="synthese" class="section container">
       <div class="section-head">
         <span class="section-num">04</span>
+        <h2>Tableau de synthèse</h2>
+        <p class="section-sub">Tableau de synthèse des réalisations professionnelles de l'épreuve E4 (BTS SIO, session 2027), avec les compétences mises en œuvre.</p>
+        <div class="synthese-links">
+          <a class="btn btn-primary" href="synthese/tableau-de-synthese-e4.pdf" target="_blank" rel="noopener">Télécharger le tableau (PDF)</a>
+          <a class="btn btn-ghost" href="synthese/tableau-de-synthese-e4.xlsx" download>Version Excel</a>
+        </div>
+      </div>
+      <p class="table-hint">Faites défiler le tableau horizontalement pour voir toutes les compétences.</p>
+      <div class="table-wrap">
+        <table class="synthese">
+          <thead>
+            <tr>
+              <th scope="col" class="col-real">Réalisation professionnelle</th>
+              <th scope="col" class="col-date">Période</th>
+              <th scope="col" class="col-comp"><abbr title="Gérer le patrimoine informatique">Patrimoine informatique</abbr></th>
+              <th scope="col" class="col-comp"><abbr title="Répondre aux incidents et aux demandes d'assistance et d'évolution">Incidents &amp; assistance</abbr></th>
+              <th scope="col" class="col-comp"><abbr title="Développer la présence en ligne de l'organisation">Présence en ligne</abbr></th>
+              <th scope="col" class="col-comp"><abbr title="Travailler en mode projet">Mode projet</abbr></th>
+              <th scope="col" class="col-comp"><abbr title="Mettre à disposition des utilisateurs un service informatique">Mise à disposition d'un service</abbr></th>
+              <th scope="col" class="col-comp"><abbr title="Organiser son développement professionnel">Développement professionnel</abbr></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="group"><th scope="rowgroup" colspan="8">Réalisations en cours de formation</th></tr>
+            <tr>
+              <th scope="row"><span class="real-title">Installation et configuration de machines virtuelles sous VirtualBox (réseau NAT, redirection de ports)</span><span class="real-docs">Productions : VM Ubuntu Server 24.04 et Windows Server 2019</span></th>
+              <td class="col-date">12/10/25 au 09/02/26</td>
+              <td class="col-comp"><span class="check" aria-label="Gérer le patrimoine informatique">✓</span></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"><span class="check" aria-label="Organiser son développement professionnel">✓</span></td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="real-title">MOOC SecNumacadémie de l'ANSSI : fondamentaux de la cybersécurité</span><span class="real-docs"><a href="certifications/anssi-secnumacademie.pdf" target="_blank" rel="noopener">Document : attestation de suivi</a></span></th>
+              <td class="col-date">13/11/25</td>
+              <td class="col-comp"><span class="check" aria-label="Gérer le patrimoine informatique">✓</span></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"><span class="check" aria-label="Organiser son développement professionnel">✓</span></td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="real-title">Réseau multiservices StratAdvise sous Cisco Packet Tracer : VLAN, routage inter-VLAN, ACL, DHCP, DNS, HTTP, SNMP</span><span class="real-docs"><a href="projets/vlan.pdf" target="_blank" rel="noopener">Documents : fichier Packet Tracer, diaporama (schéma, VLAN, tests de connectivité, DHCP)</a></span></th>
+              <td class="col-date">03/02/26 au 17/03/26</td>
+              <td class="col-comp"></td>
+              <td class="col-comp"><span class="check" aria-label="Répondre aux incidents et aux demandes d'assistance et d'évolution">✓</span></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"><span class="check" aria-label="Travailler en mode projet">✓</span></td>
+              <td class="col-comp"><span class="check" aria-label="Mettre à disposition des utilisateurs un service informatique">✓</span></td>
+              <td class="col-comp"></td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="real-title">Déploiement d'un contrôleur de domaine Windows Server 2019 (AD DS, DNS) : domaine esn.local, OU, import CSV, GPO</span><span class="real-docs"><a href="projets/active-directory.pdf" target="_blank" rel="noopener">Document : diaporama de 13 diapositives (VM, adressage, domaine, OU, GPO, audit)</a></span></th>
+              <td class="col-date">12/01/26 au 02/04/26</td>
+              <td class="col-comp"><span class="check" aria-label="Gérer le patrimoine informatique">✓</span></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"><span class="check" aria-label="Travailler en mode projet">✓</span></td>
+              <td class="col-comp"><span class="check" aria-label="Mettre à disposition des utilisateurs un service informatique">✓</span></td>
+              <td class="col-comp"></td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="real-title">Évolutions de l'annuaire Active Directory : script PowerShell de conformité des comptes, stratégie de mot de passe affinée (FGPP)</span><span class="real-docs">Documents : script commenté, captures Get-ADFineGrainedPasswordPolicy</span></th>
+              <td class="col-date">04/05/26</td>
+              <td class="col-comp"><span class="check" aria-label="Gérer le patrimoine informatique">✓</span></td>
+              <td class="col-comp"><span class="check" aria-label="Répondre aux incidents et aux demandes d'assistance et d'évolution">✓</span></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="real-title">Gestion de parc et de tickets avec GLPI selon ITIL 4 (inventaire par agent GLPI, cycle de vie des tickets)</span><span class="real-docs">Productions : inventaire et tickets traités dans GLPI</span></th>
+              <td class="col-date">02/03/26 au 23/03/26</td>
+              <td class="col-comp"><span class="check" aria-label="Gérer le patrimoine informatique">✓</span></td>
+              <td class="col-comp"><span class="check" aria-label="Répondre aux incidents et aux demandes d'assistance et d'évolution">✓</span></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="real-title">Supervision SNMP : exploration avec iReasoning MIB Browser, requêtes en PowerShell et en Python</span><span class="real-docs">Productions : scripts PowerShell (module SNMP) et Python (pysnmp), rapport des interfaces</span></th>
+              <td class="col-date">16/03/26 au 30/03/26</td>
+              <td class="col-comp"><span class="check" aria-label="Gérer le patrimoine informatique">✓</span></td>
+              <td class="col-comp"><span class="check" aria-label="Répondre aux incidents et aux demandes d'assistance et d'évolution">✓</span></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="real-title">Conception et publication de mon portfolio web (HTML, CSS, JavaScript) et de mon profil LinkedIn</span><span class="real-docs">Productions : site portfolio, profil LinkedIn</span></th>
+              <td class="col-date">30/04/26 au 26/09/26</td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"><span class="check" aria-label="Développer la présence en ligne de l'organisation">✓</span></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"><span class="check" aria-label="Organiser son développement professionnel">✓</span></td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="real-title">Supervision et observabilité avec Zabbix, Grafana et Loki (agent Zabbix, tableaux de bord, journaux)</span><span class="real-docs">Productions : hôte supervisé par l'agent Zabbix, tableaux de bord Grafana</span></th>
+              <td class="col-date">08/06/26</td>
+              <td class="col-comp"><span class="check" aria-label="Gérer le patrimoine informatique">✓</span></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"><span class="check" aria-label="Mettre à disposition des utilisateurs un service informatique">✓</span></td>
+              <td class="col-comp"></td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="real-title">Projet E6 NégoTech Distribution : mise en conformité de la plateforme d'examen (Proxmox VE, pfSense, 4 VLAN, Active Directory)</span><span class="real-docs">Documents : contexte client, plan de projet et checklist annexe II.E, captures Proxmox et pfSense</span></th>
+              <td class="col-date">14/08/26 — en cours</td>
+              <td class="col-comp"><span class="check" aria-label="Gérer le patrimoine informatique">✓</span></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"><span class="check" aria-label="Travailler en mode projet">✓</span></td>
+              <td class="col-comp"><span class="check" aria-label="Mettre à disposition des utilisateurs un service informatique">✓</span></td>
+              <td class="col-comp"></td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="real-title">Infrastructure de services sous VMware Workstation : contrôleur de domaine, GLPI 11 sur Debian 13, poste d'audit Kali Linux</span><span class="real-docs">Documents : schéma réseau (draw.io), captures d'installation</span></th>
+              <td class="col-date">31/08/26 — en cours</td>
+              <td class="col-comp"><span class="check" aria-label="Gérer le patrimoine informatique">✓</span></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"><span class="check" aria-label="Mettre à disposition des utilisateurs un service informatique">✓</span></td>
+              <td class="col-comp"></td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="real-title">Projet E6 : déploiement d'une salle de formation virtuelle (DHCP, DNS, AD, partages, intranet, supervision Zabbix)</span><span class="real-docs"><a href="projets/dossier-e6-salle-de-formation.pdf" target="_blank" rel="noopener">Document : méthodologie de conduite de projet (cycle en V, cahier de recette)</a></span></th>
+              <td class="col-date">01/09/26 — en cours</td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"><span class="check" aria-label="Travailler en mode projet">✓</span></td>
+              <td class="col-comp"><span class="check" aria-label="Mettre à disposition des utilisateurs un service informatique">✓</span></td>
+              <td class="col-comp"></td>
+            </tr>
+            <tr class="group"><th scope="rowgroup" colspan="8">Réalisations en milieu professionnel — première année</th></tr>
+            <tr>
+              <th scope="row"><span class="real-title">ITW Automotive : gestion des vulnérabilités du parc avec Nexpose (Rapid7), corrections TLS, SNMP et Telnet sur les imprimantes</span><span class="real-docs">Document : rapport de stage (tableau des vulnérabilités et des corrections)</span></th>
+              <td class="col-date">16/02/26 au 27/02/26</td>
+              <td class="col-comp"><span class="check" aria-label="Gérer le patrimoine informatique">✓</span></td>
+              <td class="col-comp"><span class="check" aria-label="Répondre aux incidents et aux demandes d'assistance et d'évolution">✓</span></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="real-title">ITW Automotive : participation au programme de cybersécurité BRAVE (audit de sécurité, sensibilisation des utilisateurs)</span><span class="real-docs">Document : rapport de stage</span></th>
+              <td class="col-date">16/02/26 au 27/02/26</td>
+              <td class="col-comp"><span class="check" aria-label="Gérer le patrimoine informatique">✓</span></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"><span class="check" aria-label="Mettre à disposition des utilisateurs un service informatique">✓</span></td>
+              <td class="col-comp"></td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="real-title">ITW Automotive : traitement des incidents et des demandes utilisateurs (helpdesk niveau 1, prise en main à distance avec N-able)</span><span class="real-docs">Document : rapport de stage</span></th>
+              <td class="col-date">16/02/26 au 27/02/26</td>
+              <td class="col-comp"></td>
+              <td class="col-comp"><span class="check" aria-label="Répondre aux incidents et aux demandes d'assistance et d'évolution">✓</span></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"><span class="check" aria-label="Mettre à disposition des utilisateurs un service informatique">✓</span></td>
+              <td class="col-comp"></td>
+            </tr>
+            <tr>
+              <th scope="row"><span class="real-title">Stage Its Groupe Tech : maquette de l'infrastructure TechBuild SAS, socle VMware Workstation et PNETLab, documentation technique</span><span class="real-docs">Documents : documentation technique VMware Workstation v1.0, diaporama de 12 diapositives (DEX)</span></th>
+              <td class="col-date">01/07/26 au 27/07/26</td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"></td>
+              <td class="col-comp"><span class="check" aria-label="Travailler en mode projet">✓</span></td>
+              <td class="col-comp"><span class="check" aria-label="Mettre à disposition des utilisateurs un service informatique">✓</span></td>
+              <td class="col-comp"></td>
+            </tr>
+            <tr class="group"><th scope="rowgroup" colspan="8">Réalisations en milieu professionnel — seconde année</th></tr>
+            <tr class="note"><td colspan="8">À venir</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="parcours" class="section container">
+      <div class="section-head">
+        <span class="section-num">05</span>
         <h2>Parcours</h2>
       </div>
       <ol class="timeline">
@@ -276,7 +472,7 @@ eth0   UP   192.168.1.10/24
 
     <section id="certifications" class="section container">
       <div class="section-head">
-        <span class="section-num">05</span>
+        <span class="section-num">06</span>
         <h2>Certifications</h2>
         <p class="section-sub">Les certifications que j'ai obtenues.</p>
       </div>
@@ -304,7 +500,7 @@ eth0   UP   192.168.1.10/24
 
     <section id="contact" class="section container">
       <div class="section-head">
-        <span class="section-num">06</span>
+        <span class="section-num">07</span>
         <h2>Contact</h2>
         <p class="section-sub">À la recherche d'un stage ou d'une alternance ? Discutons-en.</p>
       </div>

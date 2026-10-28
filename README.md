@@ -11,6 +11,7 @@ Site statique : HTML, CSS et JavaScript, sans dépendance ni étape de build.
 - `script.js` — menu mobile, lien actif dans la navigation, animations d'apparition
 - `projets/` — documents des projets (PDF) liés depuis la section Projets
 - `certifications/` — certificats et attestations (PDF)
+- `synthese/` — tableau de synthèse E4 (PDF et Excel)
 - `vercel.json` — configuration du déploiement Vercel
 
 ## Lancer en local
