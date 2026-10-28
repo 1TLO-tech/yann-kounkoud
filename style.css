@@ -417,8 +417,12 @@ ul, ol { margin: 0; padding: 0; }
 
 /* Certifications */
 .certif-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.certif { display: flex; flex-direction: column; }
 .certif h3 { font-size: 1.1rem; }
 .certif p { color: var(--muted); font-size: 15px; }
+.certif p:not(.sources) { flex: 1; }
+.certif-link { display: inline-block; margin-top: 14px; font-size: 14px; font-weight: 600; }
+.certif-link::after { content: " ↗"; }
 .sources { font-size: 13px !important; margin: 0 !important; font-family: var(--mono); }
 
 /* Contact */
