@@ -415,10 +415,10 @@ ul, ol { margin: 0; padding: 0; }
 .timeline h3 { font-size: 1.15rem; margin-top: 4px; }
 .timeline p { color: var(--muted); margin: 0; }
 
-/* Veille */
-.veille-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-.veille h3 { font-size: 1.1rem; }
-.veille p { color: var(--muted); font-size: 15px; }
+/* Certifications */
+.certif-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.certif h3 { font-size: 1.1rem; }
+.certif p { color: var(--muted); font-size: 15px; }
 .sources { font-size: 13px !important; margin: 0 !important; font-family: var(--mono); }
 
 /* Contact */
@@ -447,7 +447,7 @@ ul, ol { margin: 0; padding: 0; }
 /* Responsive */
 @media (max-width: 900px) {
   .hero { grid-template-columns: 1fr; padding-top: 56px; min-height: auto; gap: 36px; }
-  .skills-grid, .veille-grid, .contact-grid { grid-template-columns: repeat(2, 1fr); }
+  .skills-grid, .certif-grid, .contact-grid { grid-template-columns: repeat(2, 1fr); }
   .about-grid { grid-template-columns: 1fr; gap: 28px; }
 }
 
@@ -469,7 +469,7 @@ ul, ol { margin: 0; padding: 0; }
   }
   .nav-menu.open { display: flex; }
   .nav-menu a { display: block; padding: 12px 14px; }
-  .skills-grid, .veille-grid, .contact-grid, .projects-grid { grid-template-columns: 1fr; }
+  .skills-grid, .certif-grid, .contact-grid, .projects-grid { grid-template-columns: 1fr; }
   .section { padding: 56px 16px; }
   .hero { padding: 40px 16px 48px; }
   .terminal-body { font-size: 12.5px; }

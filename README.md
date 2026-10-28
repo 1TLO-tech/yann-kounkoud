@@ -6,7 +6,7 @@ Site statique : HTML, CSS et JavaScript, sans dépendance ni étape de build.
 
 ## Structure
 
-- `index.html` — contenu du site (à propos, compétences, projets, parcours, veille, contact)
+- `index.html` — contenu du site (à propos, compétences, projets, parcours, certifications, contact)
 - `style.css` — styles, thème clair/sombre automatique, responsive
 - `script.js` — menu mobile, lien actif dans la navigation, animations d'apparition
 - `vercel.json` — configuration du déploiement Vercel
