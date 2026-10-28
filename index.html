@@ -181,9 +181,26 @@ eth0   UP   192.168.1.10/24
       <div class="section-head">
         <span class="section-num">03</span>
         <h2>Projets</h2>
-        <p class="section-sub">Travaux réalisés en formation, en atelier de professionnalisation et en autonomie.</p>
+        <p class="section-sub">Travaux réalisés en formation et en atelier de professionnalisation, avec les documents à consulter.</p>
       </div>
       <div class="projects-grid">
+        <article class="card project">
+          <div class="project-top">
+            <span class="badge">Projet E6</span>
+            <span class="project-date">2026</span>
+          </div>
+          <h3>Salle de formation virtuelle — dossier de projet E6</h3>
+          <p>
+            Conception et déploiement complet d'une infrastructure d'entreprise simulée sur trois machines
+            virtuelles : contrôleur de domaine <code>formation.local</code> (AD DS, DNS, DHCP, partages avec
+            droits AGDLP, GPO de lecteurs réseau, création des comptes par script PowerShell et CSV), serveur
+            Debian 12 faisant routeur NAT et hôte Docker (intranet Apache, supervision Zabbix 7.0 LTS) et poste
+            client Windows 11 membre du domaine. Livré avec dossier de conception, documentation technique,
+            cahier de recette, rapport d'exploitation et guides utilisateur et administrateur.
+          </p>
+          <ul class="tech-list"><li>Windows Server 2025</li><li>Debian 12</li><li>Docker</li><li>Zabbix</li><li>VMware Workstation</li><li>PowerShell</li></ul>
+          <a class="doc-link" href="projets/dossier-e6-salle-de-formation.pdf" target="_blank" rel="noopener">Lire le dossier (PDF, 92 pages)</a>
+        </article>
         <article class="card project">
           <div class="project-top">
             <span class="badge">Systèmes</span>
@@ -191,11 +208,14 @@ eth0   UP   192.168.1.10/24
           </div>
           <h3>Déploiement d'un domaine Active Directory</h3>
           <p>
-            Installation de Windows Server, promotion en contrôleur de domaine, création de l'arborescence
-            d'unités d'organisation, gestion des utilisateurs et groupes, déploiement de GPO
-            (restrictions, lecteurs réseau, fond d'écran) et intégration de postes clients Windows.
+            Atelier en quatre séances : spécification et configuration IP statique de la VM, création du
+            domaine <code>esn.local</code> sur SRV-AD01, structure d'unités d'organisation par service
+            (Direction, Informatique, Comptabilité, RH), import des utilisateurs depuis un fichier CSV,
+            GPO de politique de mots de passe et de verrouillage des comptes, plan d'audit des événements
+            de sécurité et politique d'authentification à deux facteurs.
           </p>
-          <ul class="tech-list"><li>Windows Server 2022</li><li>AD DS</li><li>DNS</li><li>DHCP</li><li>GPO</li></ul>
+          <ul class="tech-list"><li>Windows Server</li><li>AD DS</li><li>GPO</li><li>PowerShell</li><li>Audit</li></ul>
+          <a class="doc-link" href="projets/active-directory.pdf" target="_blank" rel="noopener">Voir la présentation</a>
         </article>
         <article class="card project">
           <div class="project-top">
@@ -204,63 +224,27 @@ eth0   UP   192.168.1.10/24
           </div>
           <h3>Segmentation réseau par VLAN</h3>
           <p>
-            Conception d'un plan d'adressage pour une PME fictive, création de VLAN par service
-            (administration, commercial, invités), configuration des trunks et du routage inter-VLAN
-            sur un switch de niveau 3, puis tests de connectivité et d'isolation.
+            Maquette sous Cisco Packet Tracer : création de VLAN par service (RH, Finances, IT), routage
+            inter-VLAN sur un routeur Cisco 2911, serveurs DHCP, DNS, HTTP et SNMP centralisés, puis
+            tests de connectivité et d'isolation entre les VLAN.
           </p>
-          <ul class="tech-list"><li>Cisco</li><li>VLAN</li><li>802.1Q</li><li>Packet Tracer</li></ul>
+          <ul class="tech-list"><li>Cisco</li><li>VLAN</li><li>Routage inter-VLAN</li><li>DHCP</li><li>Packet Tracer</li></ul>
+          <a class="doc-link" href="projets/vlan.pdf" target="_blank" rel="noopener">Voir la présentation</a>
         </article>
         <article class="card project">
           <div class="project-top">
-            <span class="badge">Sécurité</span>
+            <span class="badge">Sécurité &amp; systèmes</span>
             <span class="project-date">2025</span>
           </div>
-          <h3>Pare-feu pfSense et accès VPN</h3>
+          <h3>Documentation pfSense et Windows Server 2025</h3>
           <p>
-            Mise en place de pfSense en passerelle entre LAN, DMZ et WAN : règles de filtrage,
-            NAT pour publier un serveur web, portail captif pour les invités et accès nomade
-            sécurisé via OpenVPN avec authentification par certificats.
+            Rédaction des procédures d'installation et de configuration d'un pare-feu pfSense 2.8.1
+            (RFW01) et d'un serveur Windows Server 2025 (DC01) : configuration réseau, renommage et
+            mises à jour, installation des rôles AD DS, DNS et DHCP, étendue DHCP, zone DNS inversée
+            et tests de fonctionnement.
           </p>
-          <ul class="tech-list"><li>pfSense</li><li>OpenVPN</li><li>NAT</li><li>DMZ</li></ul>
-        </article>
-        <article class="card project">
-          <div class="project-top">
-            <span class="badge">Virtualisation</span>
-            <span class="project-date">2024</span>
-          </div>
-          <h3>Lab Proxmox à la maison</h3>
-          <p>
-            Installation de Proxmox VE sur un serveur de récupération, création de VM et de
-            conteneurs LXC, mise en place de snapshots et de sauvegardes planifiées. Ce lab
-            me sert de terrain d'expérimentation pour tous mes autres projets.
-          </p>
-          <ul class="tech-list"><li>Proxmox VE</li><li>LXC</li><li>Debian</li><li>Backups</li></ul>
-        </article>
-        <article class="card project">
-          <div class="project-top">
-            <span class="badge">Support</span>
-            <span class="project-date">2024</span>
-          </div>
-          <h3>Gestion de parc avec GLPI</h3>
-          <p>
-            Déploiement de GLPI sur un serveur Linux (Apache, MariaDB, PHP), inventaire
-            automatique des postes avec l'agent GLPI, mise en place du centre de services
-            (tickets, SLA) et rédaction de la documentation utilisateur.
-          </p>
-          <ul class="tech-list"><li>GLPI</li><li>Linux</li><li>MariaDB</li><li>ITIL</li></ul>
-        </article>
-        <article class="card project">
-          <div class="project-top">
-            <span class="badge">Supervision</span>
-            <span class="project-date">2024</span>
-          </div>
-          <h3>Supervision avec Zabbix</h3>
-          <p>
-            Installation d'un serveur Zabbix, ajout d'hôtes Windows et Linux via agents,
-            création de modèles de surveillance (CPU, RAM, disques, services) et configuration
-            d'alertes par e-mail en cas d'incident.
-          </p>
-          <ul class="tech-list"><li>Zabbix</li><li>SNMP</li><li>Alerting</li></ul>
+          <ul class="tech-list"><li>pfSense</li><li>Windows Server 2025</li><li>AD DS</li><li>DNS</li><li>DHCP</li></ul>
+          <a class="doc-link" href="projets/documentation-pfsense-windows-server.pdf" target="_blank" rel="noopener">Voir la documentation</a>
         </article>
       </div>
     </section>
@@ -301,19 +285,19 @@ eth0   UP   192.168.1.10/24
           <h3>SecNumacadémie</h3>
           <p>MOOC de l'ANSSI en quatre modules : panorama de la SSI, sécurité de l'authentification, sécurité sur Internet, sécurité du poste de travail et nomadisme.</p>
           <p class="sources">ANSSI · janvier 2026</p>
-          <a class="certif-link" href="certifications/anssi-secnumacademie.pdf" target="_blank" rel="noopener">Voir l'attestation</a>
+          <a class="doc-link" href="certifications/anssi-secnumacademie.pdf" target="_blank" rel="noopener">Voir l'attestation</a>
         </article>
         <article class="card certif">
           <h3>Exploring Networking with Cisco Packet Tracer</h3>
           <p>Découverte des réseaux avec Packet Tracer : conception de topologies, configuration d'équipements et vérification de la connectivité.</p>
           <p class="sources">Cisco Networking Academy · novembre 2025</p>
-          <a class="certif-link" href="certifications/cisco-exploring-networking.pdf" target="_blank" rel="noopener">Voir le certificat</a>
+          <a class="doc-link" href="certifications/cisco-exploring-networking.pdf" target="_blank" rel="noopener">Voir le certificat</a>
         </article>
         <article class="card certif">
           <h3>Exploring Internet of Things with Cisco Packet Tracer</h3>
           <p>Introduction à l'IoT avec Packet Tracer : objets connectés, capteurs, passerelles et simulation de réseaux domotiques.</p>
           <p class="sources">Cisco Networking Academy · novembre 2025</p>
-          <a class="certif-link" href="certifications/cisco-exploring-iot.pdf" target="_blank" rel="noopener">Voir le certificat</a>
+          <a class="doc-link" href="certifications/cisco-exploring-iot.pdf" target="_blank" rel="noopener">Voir le certificat</a>
         </article>
       </div>
     </section>

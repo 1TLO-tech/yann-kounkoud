@@ -363,6 +363,7 @@ ul, ol { margin: 0; padding: 0; }
 .project-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
 .project h3 { font-size: 1.15rem; }
 .project p { color: var(--muted); font-size: 15px; flex: 1; }
+.project code { font-family: var(--mono); font-size: 13px; color: var(--accent-text); }
 
 .badge {
   font-size: 12px;
@@ -421,8 +422,8 @@ ul, ol { margin: 0; padding: 0; }
 .certif h3 { font-size: 1.1rem; }
 .certif p { color: var(--muted); font-size: 15px; }
 .certif p:not(.sources) { flex: 1; }
-.certif-link { display: inline-block; margin-top: 14px; font-size: 14px; font-weight: 600; }
-.certif-link::after { content: " ↗"; }
+.doc-link { display: inline-block; margin-top: 14px; font-size: 14px; font-weight: 600; align-self: flex-start; }
+.doc-link::after { content: " ↗"; }
 .sources { font-size: 13px !important; margin: 0 !important; font-family: var(--mono); }
 
 /* Contact */
